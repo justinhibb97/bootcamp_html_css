@@ -1,0 +1,161 @@
+h1{
+    color: #ffffff;
+    background-color: #212529;
+    padding: 20px;
+    width: 300px;
+    border-radius: 25px;
+    font-size: 22px;
+    font-family: arial;
+    font-weight: normal;
+}
+
+body{
+    background-color: #f8f9fa;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+}
+
+form{
+    background-color: #dee2e6;
+    border-radius: 25px;
+    width: 300px;
+    padding: 20px;
+}
+
+label{
+    color: #343a40;
+}
+
+.agegroup{
+    color: #343a40;
+}
+
+.register{
+    background-color: #212529;
+    color: #ced4da;
+    border-radius: 25px;
+    width: 150px;
+    padding: 10px;
+    border-width: 0px;
+    
+}
+.register:hover{
+    background-color: #0f1113;
+}
+
+#firstname{
+    border-radius:10px;
+    padding: 5px;
+    border-width: 0px;
+    text-align: center;
+    width: 200px;
+}
+
+#firstname:hover{
+    background-color: rgb(245, 245, 245);
+}
+#lastname:hover{
+    background-color: rgb(245, 245, 245);
+}
+#email:hover{
+    background-color: rgb(245, 245, 245);
+}
+#password:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+#lastname{
+    border-radius:10px;
+    padding: 5px;
+    border-width: 0px;
+    text-align: center;
+    width: 200px;
+}
+
+#email{
+    border-radius:10px;
+    padding: 5px;
+    border-width: 0px;
+    text-align: center;
+    width: 200px;
+}
+#password{
+    border-radius:10px;
+    padding: 5px;
+    border-width: 0px;
+    text-align: center;
+    width: 200px;
+}
+#agegroup{
+    border-radius:10px;
+    padding: 5px;
+    border-width: 0px;
+    width: 200px;
+    text-align: center;
+}
+
+#agegroup:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+#racebox{
+    border-radius:10px;
+    padding: 5px;
+    border-width: 0px;
+    text-align: left;
+
+    width: 200px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    max-width: 500px;
+}
+#racebox:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+#test{
+    color: rgb(109, 109, 109);
+}
+
+#firstname::placeholder{
+    color: rgb(109, 109, 109);
+}
+#lastname::placeholder{
+    color: rgb(109, 109, 109);
+}
+#email::placeholder{
+    color: rgb(109, 109, 109);
+}
+#password::placeholder{
+    color: rgb(109, 109, 109);
+}
+
+#test:hover{
+    color: black;
+}
+
+#footer{
+    background-color: #dee2e6;
+    border-radius: 25px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+#footer button{
+    background-color: #212529;
+    color: #ced4da;
+    border-radius: 25px;
+    width: 125px;
+    padding: 10px;
+    border-width: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer button:hover{
+    background-color: #0f1113;
+}
+

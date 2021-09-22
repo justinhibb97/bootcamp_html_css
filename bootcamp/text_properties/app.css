@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: #f78120 underline wavy;
+    letter-spacing: 15px;
+    font-size: 80px;
+    /* font-family: Segoe UI, Futura, Arial, sans-serif; */
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
+
+#idexample{
+    color: black;
+}
+
+span {
+    color: white;
+}
+
+.classexample{
+    background-color: red;
+}
+
+.classexample a {
+    color: red;
+}
+
+footer a {
+    color: red;
+}
+
+h1 + p { /* follows immediately from the header, one line down */
+    color: red;
+}
+
+div > li { /* li's that are a direct child of a div, one level down, not nested inside anything*/
+    color: white;
+}
+
+input[type="text"] { /*attirbute select, selects all input elements where the type is "text' */
+    color: red;
+}
+
+section.post { /* only selects the sections with the class of post */
+    color: red;
+}
+
+a[href*="google"] { /* selects the anchor tag that has the word google contained in it */
+    color: red;
+}
+
+a:hover { /*selects any <a> element when hovering over */
+    color: black;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+.post button:hover { /* when you hover over a button in the class of post, can also you use active when clicking */
+    color: red;
+}
+
+.post:nth-of-type(2n){ /* selecting every second option to apply to the class of post */
+    color: black;
+}
+
+/* id selector beats class everytime, psuedo elements -> ::first-letter rule ::first-line ::selection
+inline styles beat css, (html)
+
+!important rule overrules every other one
+can set color: inherit; to inherit from the parent
+/*

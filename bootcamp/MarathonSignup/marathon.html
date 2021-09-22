@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration - Bootcamp</title>
+    <link rel="stylesheet" href="marathonstyles.css">
+</head>
+<body>
+    <h1 id="registrationheader">Race Registration</h1>
+    <form action="/registration">
+    <p>
+        <input id="firstname" type="text" placeholder="First Name" name="firstname" required>
+    </p>
+    <p>    
+        <input id="lastname" type="text" placeholder="Last Name" name="lastname" required>
+    </p>
+
+    <p>
+        <input id="email" type="email" placeholder="Email" name="email" required>
+    </p><p>
+        <input id="password" type="password" placeholder="Password" name="password" required minlength="2" maxlength="12">
+    </p>
+    
+    <section id="racebox">
+    <p>
+        <p>
+        <input type="radio" id="5K" name="race" value="race1" checked>
+        <label id="test" for="5K">5K</label>
+        </p><p>
+        <input type="radio" id="halfmarathon" name="race" value="race2">
+        <label id = "test" for="halfmarathon">Half Marathon</label>
+        </p><p>
+        <input type="radio" id="fullmarathon" name="race" value="race3">
+        <label id = "test" for="fullmarathon">Full Marathon</label></p>
+    </p>
+    </section>
+    <p>
+        <select name="agegroup" id="agegroup" required>
+            <option id ="agegroupplaceholder" disabled value="">Age Group</option>
+            <option value="18-">Under 18 years old</option>
+            <option value="25+">25 to 50 years old</option>
+            <option value="50+">Above 50 years old</option>
+        </select>
+    </p>
+    <p>
+        <button class = "register">Register</button>
+    </p>
+    <p>
+
+    </p>
+    
+    </form>
+
+    <section id="footer">
+        <button>Contact Us</button>
+        <button>Report Issue</button>
+    </section>
+</body>
+</html>
